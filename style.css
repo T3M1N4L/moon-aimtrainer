@@ -1,9 +1,9 @@
 * {
-    margin: 0%;
+    margin: 0;
     font-family: monospace;
 }
 body {
-    background-color: #000;
+    background-color: #1e1e2e; /* Mocha base color */
 }
 div {
     width: auto;
@@ -19,7 +19,7 @@ div {
 }
 img {
     border-radius: 25px;
-    border: #903cff 4px solid;
+    border: #cba6f7 4px solid; /* Lavender */
     width: 250px;
     height: auto;
     margin-right: 25px;
@@ -28,25 +28,24 @@ img {
 }
 img:hover {
     width: 300px;
-    border-color: #a560ff;
-    box-shadow: 0px 0px 50px #a560ff;
+    border-color: #f5c2e7; /* Pink */
+    box-shadow: 0px 0px 50px #f5c2e7; /* Pink glow */
 }
 #info {
     font-size: 50px;
-    color: aliceblue;
+    color: #cdd6f4; /* Text color */
     position: absolute;
     display: flex;
     margin-top: 50vh;
     font-weight: 600;
 }
-h1{
+h1 {
     font-size: 60px;
-    color: #903cff;
+    color: #cba6f7; /* Lavender */
     position: absolute;
     display: flex;
     width: 100%;
-    margin-top:50px;
-    display: flex;
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
     text-align: center;
