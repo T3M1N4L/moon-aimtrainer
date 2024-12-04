@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+}
+body {
+    background-color: #000000;
+}
+.center {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 100vh;
+    height: 60vh;
+}
+.child {
+    margin: 10px auto auto auto;
+    border: #962cff 0.5vh solid;
+    width: 85vh;
+    height: 50vh;
+    background-color: #000;
+    background-image: radial-gradient(#565656 10%, transparent 10%);
+    background-size: 2vh 2vh;
+    cursor: url("cross_1.png") 15 15, auto;
+    transition: 0.5s;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.child:hover {
+    border: #1b1b1b 0.5vh solid;
+    box-shadow: 0px 0px 10px #1b1b1b;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#target {
+    visibility: hidden;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+    box-shadow: 0px 0px 25px #fff;
+    position: absolute;
+}
+#score {
+    font-family: 'monospace';
+    margin: auto;
+    font-size: 3vh;
+    color: #9e27ff;
+    float: left;
+    font-weight:600;
+}
+#mistake {
+    font-family: 'monospace';
+    margin: auto;
+    font-size: 3vh;
+    color: #9e27ff;
+}
+#timer {
+    font-family: 'monospace';
+    margin: auto;
+    font-size: 3vh;
+    color: #9e27ff;
+    font-weight:600;
+}
+#start {
+    font-family: 'monospace';
+    width: 20vh;
+    margin-top: 22.5vh;
+    margin-left: 32.5vh;
+    border: #8173b8 2px solid;
+    text-align: center;
+    font-size: 3vh;
+    color: #9e27ff;
+    background-color: #18122B;
+    transition: 0.5s;
+    position: absolute;
+    border-radius: 7px;
+}
+#start:hover {
+    cursor: pointer;
+    background-color: #15131c;
+    transform:scale(1.05);
+}
+img {
+    margin-right: 3%;
+    margin-left: 3%;
+}
+#cross_1 {
+    width: 3vh;
+    height: 3vh;
+}
+
+#cross_3 {
+    width: 1.5vh;
+    height: 1.5vh;
+}
