@@ -51,7 +51,7 @@ body {
     position: absolute;
 }
 #score {
-    font-family: 'monospace';
+    font-family: monospace;
     margin: auto;
     font-size: 3vh;
     color: #9e27ff;
@@ -59,20 +59,20 @@ body {
     font-weight:600;
 }
 #mistake {
-    font-family: 'monospace';
+    font-family: monospace;
     margin: auto;
     font-size: 3vh;
     color: #9e27ff;
 }
 #timer {
-    font-family: 'monospace';
+    font-family: monospace;
     margin: auto;
     font-size: 3vh;
     color: #9e27ff;
     font-weight:600;
 }
 #start {
-    font-family: 'monospace';
+    font-family: monospace;
     width: 20vh;
     margin-top: 22.5vh;
     margin-left: 32.5vh;
